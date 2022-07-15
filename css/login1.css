@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.background {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../edit/PUP3.jpg);
+	background-size: cover;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: gray;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+header {
+	position: relative;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 110px;
+}
+
+header img {
+	width: 90px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+header h1 {
+	font-family: 'Source Serif Pro', serif;
+	margin-left: 120px;
+	margin-top: -80px;
+	color: maroon;
+	font-weight: bold;
+}
+header p {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	margin-left: 120px;
+	margin-top: -10px;
+	color: white;
+}
+
+.register {
+	padding: 30px;
+	position: relative;
+	margin-top: 10px;
+	width: 500px;
+    background: rgb(219, 213, 213);
+    opacity: 0.8;
+	margin-left: 430px;
+}
+
+.register h1 {
+	margin-bottom: 30px;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto Sans', sans-serif;
+}
+
+.register label {
+	color: rgb(3, 3, 3);
+}
+
+

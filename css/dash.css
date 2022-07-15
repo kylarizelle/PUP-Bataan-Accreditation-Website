@@ -1,0 +1,256 @@
+* {
+    padding: 0;
+    margin:  0;
+    box-sizing: border-box;
+}
+ ::-webkit-scrollbar {
+    width: 10px;
+ }
+ ::-webkit-scrollbar-track {
+    border-radius: 5px;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+ }
+ ::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: gray;
+ }
+ .body {
+    padding: 0;
+    margin: 0;
+    filter: blur(0px);
+    box-sizing: border-box;
+}
+
+.index {
+    position: fixed;
+    margin-top: 70px;
+    width: 1060px;
+    margin-left: 280px;
+}
+.index h1 {
+    font-size: 20px;
+    position: fixed;
+    margin-left: 10px;
+    margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.index hr {
+    margin-top: 50px;
+    padding: 2px;
+    background: yellow;
+    border: none;
+}
+
+.buttons {
+    width: 70px;
+    height: 40px;
+    font-family: 'roboto sans', sans-serif;
+    background-color: maroon;
+    border: none;
+    font-weight: bold;
+    margin-left: 950px;
+    margin-top: -20px;
+    color: white;
+    box-shadow: 3px 3px 3px #8888;
+    cursor: pointer;
+}
+
+.buttons:hover {
+    box-shadow: none;
+    background: #460505;
+}
+
+ .table {
+    width: 1070px;
+    margin-left: 0px;
+    position: absolute;
+    top: 100px;
+ }
+
+ .edit-administration {
+    width: 30px;
+    height: 30px;
+    background: blue;
+    outline: none;
+    border: none;
+    cursor: pointer;
+ }
+ .edit-administration:focus,
+.edit-administration:hover{
+    background: darkblue;
+}
+.edit-administration .fa-pencil {
+    font-size: 15px;
+    color: white;
+}
+
+.delete-administration {
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    background: red;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+
+.delete-administration:focus,
+.delete-administration:hover{
+    background: darkred;
+}
+
+.delete-administration .fa-trash {
+    font-size: 15px;
+    color: white;
+}
+
+.pop-up .overlay{
+    padding: 20px;
+    position: fixed;
+    margin-top: 20px;
+    margin-left: 600px;
+    width:  300px;
+    z-index: 1050;
+    background: white;
+    border: 1px solid gray;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px #8888;
+    display: none;
+    -webkit-overflow-scrolling: touch;
+    overflow: hidden;
+}
+
+
+.pop-up .overlay img {
+    width: 40px;
+    margin-top: -35px;
+    margin-left: 0px;
+}
+
+.pop-up .overlay p {
+    font-size: 15px;
+    text-align: center;
+    font-weight: bold;
+    color: maroon;
+}
+
+.pop-up .overlay hr {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 93%;
+    margin-left: 10px;
+    padding: 2px;
+    border: none;
+    background: maroon;
+}
+
+.pop-up .overlay h1 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 23px;
+    text-align: center;
+    color: maroon;
+}
+
+.pop-up .overlay label {
+    font-family: 'Open Sans', sans-serif;
+    display: block;
+    margin-left: 20px;
+    padding: 5px;
+    color: maroon;
+    font-weight: bold;
+}
+
+.pop-up .overlay .adm_form {
+    margin-top: 20px;
+}
+
+.pop-up .overlay input {
+    margin-top: 10px;
+    margin-left: 20px;
+    width: 80%;
+    padding: 5px;
+    border: 1px solid black;
+    outline: 0;
+    font-size: 15px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+
+.pop-up .overlay input:focus,
+.pop-up .overlay input:hover {
+    border-bottom: 2px solid maroon;
+}
+
+.add_exit {
+    background: maroon;
+    margin-left: 230px;
+    margin-top: 0px;
+    width: 27px;
+    height: 27px;
+    text-align: center;
+    font-size: 30px;
+    border-radius: 30px;
+    cursor: pointer;
+}
+
+.pop-up .overlay .fa-times {
+    font-size: 24px;
+    color: white;
+    cursor: pointer;
+}
+
+.add_save {
+    margin-top: 10px;
+    margin-left: 160px;
+    width: 70px;
+    height: 40px;
+    background: green;
+    border: none;
+    font-weight: bold;
+    color: white;
+    box-shadow: 3px 3px 3px #8888;
+    cursor: pointer;
+}
+
+.add_save:hover {
+    box-shadow: none;
+    background: darkgreen;
+}
+
+.add_cancel:hover {
+    box-shadow: none;
+    background: darkred;
+}
+
+.form-controls {
+    width: 80%;
+    margin-left: 20px;
+    height: 5vh;
+    border-color: maroon;
+    color: maroon;
+    border: 1px solid maroon;
+    outline: none;
+}
+
+.form-control:focus,
+.form-control:hover {
+    border: 2px solid maroon;
+    outline: none;
+}
+
+.form-control option {
+    font-size: 15px;
+}
+
+.alert-success{
+    line-height: 10px;
+    position: relative;
+    width: 70%;
+    top: -50px;
+}
+
+thead {
+    color: maroon;
+}
