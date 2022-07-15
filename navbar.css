@@ -1,0 +1,974 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 70px;
+}
+
+header .navbar {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 0;
+}
+
+header .navbar img {
+	width: 40px;
+	position: fixed;
+	left: 70px;
+	top: 10px;
+}
+
+header .navbar h1 {
+	position: fixed;
+	font-size: 23px;
+	color: white;
+	top: 20px;
+	left: 120px;
+}
+
+header .navbar .nav-links {
+	height: 100%;
+	line-height: 70px;
+}
+
+header .navbar .nav-links .links {
+	display: flex;
+}
+
+header .navbar .nav-links .links li {
+	position: relative;
+	list-style: none;
+	display: flex;
+	align-items: center;
+	padding: 0 14px;
+}
+
+header .navbar .nav-links .links li a {
+	color: #fff;
+	font-size: 15px;
+	text-decoration: none;
+	white-space: nowrap;
+}
+
+header .navbar .nav-links .links li .arrow {
+	height: 100%;
+	line-height: 70px;
+	width: 22px;
+	text-align: center;
+	color: #fff;
+	transition: all 0.3s ease;
+}
+
+header .navbar .nav-links .links li a:hover {
+	color: gray;
+}
+
+header .navbar .nav-links .links li:hover .about-arrow,
+header .navbar .nav-links .links li:hover .programs-arrow,
+header .navbar .nav-links .links li:hover .exhibit-arrow {
+	transform: rotate(180deg);
+	color: gray;
+}
+
+header .navbar .nav-links .links .sub-menu {
+	position: absolute;
+	padding: 10px 0;
+	top: 70px;
+	left: 0;
+	background: white;
+	line-height: 40px;
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.2);
+	display: none;
+}
+
+header .navbar .nav-links .links .sub-menu li{
+	padding: 0 22px;
+}
+
+header .navbar .nav-links .links .sub-menu li a {
+	color: #000;
+	font-size: 16px;
+	font: 500;
+}
+
+header .navbar .nav-links ul li a.active {
+	background: #000;
+	color: #fff;
+	line-height: 25px;
+	border: 5px solid black;
+}
+
+header .navbar .nav-links .sub-menu li a.active {
+	background: #000;
+	color: #fff;
+}
+
+.navbar .nav-links .links li:hover .about,
+.navbar .nav-links .links li:hover .programs,
+.navbar .nav-links .links li:hover .exhibit {
+	display: block;
+}
+
+.navbar .nav-links .links .sub-menu li a:hover {
+	color: gray;
+}
+
+.fa-bars {
+	position: absolute;
+	top: 0;
+	left: 0;
+	color: transparent;
+}
+
+.fa-times {
+	position: absolute;
+	color: transparent;
+}
+
+header .fa-search {
+	position: absolute;
+	top: 30px;
+	right: 100px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+header .container {
+	position: absolute;
+	top: 0;
+	left: 1460px;
+	width: 1360px;
+	padding: 20px 100px;
+	background: #fff;
+	align-items: center;
+	transition: 0.5s ease;
+	right: 0;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+header .container .searchbox {
+	top:  0px;
+	height: 40px;
+	width: 50%;
+	position: relative;
+	left: 230px;
+}
+
+header .container .searchbox input {
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border: 0px;
+	border-style: none;
+	border-bottom: 2px solid;
+	outline: 0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+
+.container .fa-search {
+	position: absolute;
+	color: black;
+	top: 10px;
+	right: -30px;
+	cursor: pointer;
+}
+
+header .container .fa-arrow-left {
+	position: absolute;
+	top: 0px;
+	font-size: 25px;
+	left: -300px;
+	cursor: pointer;
+}
+
+
+.sticky {
+	padding: 40px 50px;
+	background: white;
+	height: 60px;
+}
+
+.sticky .navbar img {
+	top: 10px;
+}
+
+.sticky .navbar h1 {
+	color: black;
+}
+
+.sticky .navbar .nav-links .links {
+	position: relative;
+	display: flex;
+	top: -40px;
+}
+
+.sticky .navbar .nav-links .links li .arrow {
+	color: black;
+}
+
+.sticky .navbar .nav-links .links li a {
+	color: black;
+}
+
+.sticky .navbar .nav-links ul li a.active {
+	background: #000;
+	color: #fff;
+	line-height: 30px;
+}
+
+.sticky .navbar .nav-links .sub-menu li a.active {
+	background: #000;
+	color: #fff;
+}
+.sticky .fa-search {
+	color: black;
+}
+
+
+@media (max-width: 1350px) {
+
+/*	header .navbar img {
+		left: -80px;
+		top: -5px;
+	}
+
+	.sticky .navbar img {
+		left: -80px;
+		top: -10px;
+	}
+}*/
+
+@media (max-width: 1300px) {
+/*
+	header .navbar img {
+		left: -70px;
+		top: -5px;
+	}
+
+	.sticky .navbar img {
+		left: -70px;
+		top: -10px;
+	}*/
+
+	header .fa-search {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+}
+
+@media (max-width: 1280px) {
+
+	header .navbar img {
+		margin-left: -40px;
+	}
+
+	header .navbar h1 {
+		left: 75px;
+		top: 20px;
+	}
+
+	header .navbar {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	margin-left: 70px;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 0;
+}
+
+	.sticky .navbar img {
+		margin-left: -40px;
+	}
+
+	.sticky .navbar {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	margin-left: 0px;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 0;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+
+	header .fa-search {
+	position: absolute;
+	top: 25px;
+	right: 20px;
+	color: white;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+header .navbar {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	margin-left: 30px;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 0;
+}
+
+	.sticky .navbar {
+	max-width: 1000px;
+	margin: auto;
+	display: flex;
+	margin-left: -20px;
+	align-items: center;
+	justify-content: space-between;
+	height: 100%;
+	padding: 0;
+}
+
+	.sticky .navbar img {
+		margin-left: -40px;
+	}
+}
+
+@media (max-width: 1100px) {
+
+	header .navbar img {
+	margin-left: 0px;
+	}
+
+	header .navbar h1 {
+		left: 120px;
+	}
+
+header .navbar .nav-links {
+		display: block;
+		position: fixed;
+		top: 0px;
+		left: 100%;
+		max-width: 300px;
+		width: 300px;
+		background: #F5F5F5;
+		padding: 30px;
+		line-height: 40px;
+		transition: all 0.5 ease;
+		overflow: hidden;
+		overflow-y: scroll;
+	}
+
+	header .navbar .nav-links::-webkit-scrollbar {
+		width: 10px;
+	}
+
+	header .navbar .nav-links::-webkit-scrollbar-track {
+		border-radius: 5px;
+		box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+	}
+
+	header .navbar .nav-links::-webkit-scrollbar-thumb {
+		border-radius: 5px;
+		background-color: gray;
+	}
+
+	header .navbar .nav-links .links {
+		display: block;
+		margin-top: 0px;
+	}
+
+	header .navbar .nav-links .links li {
+		display: block;
+	}
+
+	header .navbar .nav-links .links li a {
+		color: black;
+	}
+
+	header .navbar .nav-links .links li .arrow {
+		color: black;
+		font-size: 20px;
+	}
+
+	header .navbar .nav-links .links .sub-menu {
+		display: none;
+		position: relative;
+		top: 0;
+		left: 0;
+		box-shadow: none;
+		background: #F5F5F5;
+	}
+
+	header .navbar .nav-links .links .sub-menu li {
+		border-bottom: none;
+	}
+
+	header .navbar .nav-links .links li:hover .about,
+	header .navbar .nav-links .links li:hover .programs,
+	header .navbar .nav-links .links li:hover .exhibit {
+	display: none;
+}
+
+	header .navbar .nav-links .links li .arrow {
+	line-height: 40px;
+}
+
+	header .navbar .nav-links .links li:hover .about-arrow,
+	header .navbar .nav-links .links li:hover .programs-arrow,
+	header .navbar .nav-links .links li:hover .exhibit-arrow {
+	transform: rotate(0deg);
+	cursor: pointer;
+}
+
+.navbar .fa-bars {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.navbar .nav-links .fa-times {
+	position: relative;
+	left: 210px;
+	font-size: 25px;
+	color: black;
+	cursor: pointer;
+}
+
+header .fa-search {
+	right: 30px;
+}
+
+.sticky {
+	padding: 40px 50px;
+	background: white;
+	height: 60px;
+}
+
+.sticky .navbar img {
+	margin-left: 0;
+}
+
+.sticky .navbar .fa-bars {
+	position: relative;
+	left: 0px;
+	top: -5px;
+	color: black;
+	font-size: 25px;
+}
+
+	.sticky .navbar .nav-links .links {
+		display: block;
+		margin-top: 40px;
+	}
+
+	.sticky .navbar .nav-links .links li {
+		display: block;
+	}
+
+	.sticky .navbar .nav-links .links .sub-menu {
+		display: none;
+		position: relative;
+		top: 0;
+		left: 0;
+		box-shadow: none;
+	}
+
+	.sticky .fa-search {
+		color: black;
+	}
+
+header .container {
+	position: absolute;
+	top: 0;
+	left: 1100px;
+	width: 1100px;
+	padding: 20px 100px;
+	background: #fff;
+	align-items: center;
+	transition: 0.5s;
+	right: 0;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	} 
+header .container .searchbox {
+	top: 10px;
+	height: 30px;
+	width: 70%;
+	position: relative;
+	left: 80px;
+	}
+header .container .searchbox input {
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border: 0px;
+	border-style: none;
+	border-bottom: 2px solid;
+	outline: 0;
+	}
+header .container .fa-search {
+	position: absolute;
+	color: black;
+	top: 0px;
+	right: -20px;
+	cursor: pointer;
+	}
+
+header .container .fa-arrow-left {
+	font-size: 25px;
+	position: relative;
+	color: black;
+	top: -50px;
+	left: -160px;
+	cursor: pointer;
+	}
+
+header .navbar .nav-links ul li a.active {
+	background: #000;
+	color: #fff;
+	line-height: 25px;
+	border: 1px solid black;
+}
+
+header .navbar .nav-links .links .about-arrow {
+	margin-left: -145px;
+}
+
+header .navbar .nav-links .links .programs-arrow {
+	margin-left: -175px;
+}
+
+header .navbar .nav-links .links .exhibit-arrow {
+	margin-left: -70px;
+}
+
+
+header .navbar .nav-links.show1 .links .sub-menu.about {
+	display: block;
+}
+
+header .navbar .nav-links.show1 .links .fa-angle-down.about-arrow {
+	transform: rotate(180deg);
+}
+
+header .navbar .nav-links.show2 .links .sub-menu.programs {
+	display: block;
+}
+
+header .navbar .nav-links.show2 .links .fa-angle-down.programs-arrow {
+	transform: rotate(180deg);
+}
+
+header .navbar .nav-links.show3 .links .sub-menu.exhibit {
+	display: block;
+}
+
+header .navbar .nav-links.show3 .links .fa-angle-down.exhibit-arrow {
+	transform: rotate(180deg);
+}
+
+}
+
+@media (max-width: 900px) {
+
+	header .container {
+	position: absolute;
+	top: 0;
+	left: 1100px;
+	width: 1100px;
+	padding: 20px 100px;
+	background: #fff;
+	align-items: center;
+	transition: 0.5s;
+	right: 0;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	} 
+header .container .searchbox {
+	top: 10px;
+	height: 30px;
+	width: 70%;
+	position: relative;
+	left: -30px;
+	}
+header .container .searchbox input {
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border: 0px;
+	border-style: none;
+	border-bottom: 2px solid;
+	outline: 0;
+	}
+header .container .fa-search {
+	position: absolute;
+	color: black;
+	top: 0px;
+	right: -20px;
+	cursor: pointer;
+	}
+
+header .container .fa-arrow-left {
+	font-size: 25px;
+	position: relative;
+	color: black;
+	top: -50px;
+	left: -60px;
+	cursor: pointer;
+	}
+}
+
+@media (max-width: 750px) {
+
+	header .container {
+	position: absolute;
+	top: 0;
+	left: 1100px;
+	width: 1100px;
+	padding: 20px 100px;
+	background: #fff;
+	align-items: center;
+	transition: 0.5s;
+	right: 0;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	} 
+header .container .searchbox {
+	top: 10px;
+	height: 30px;
+	width: 50%;
+	position: relative;
+	left: 20px;
+	}
+header .container .searchbox input {
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border: 0px;
+	border-style: none;
+	border-bottom: 2px solid;
+	outline: 0;
+	}
+header .container .fa-search {
+	position: absolute;
+	color: black;
+	top: 0px;
+	right: -20px;
+	cursor: pointer;
+	}
+
+header .container .fa-arrow-left {
+	font-size: 25px;
+	position: relative;
+	color: black;
+	top: -50px;
+	left: -100px;
+	cursor: pointer;
+	}
+}
+
+@media(max-width: 700px) {
+
+	header .navbar img {
+	width: 40px;
+	position: absolute;
+	top: 10px;
+	left: 70px;
+	}
+
+	header .navbar h1 {
+		position: absolute;
+		top: 20px;
+	}
+
+	header .navbar .nav-links {
+		display: block;
+		position: fixed;
+		top: 0px;
+		left: 100%;
+		max-width: 300px;
+		width: 300px;
+		background: #F5F5F5;
+		padding: 30px;
+		line-height: 40px;
+		transition: all 0.5 ease;
+	}
+
+	header .navbar .nav-links .links {
+		display: block;
+		margin-top: 0px;
+	}
+
+	header .navbar .nav-links .links li {
+		display: block;
+	}
+
+	header .navbar .nav-links .links li a {
+		font-size: 17px;
+		color: black;
+	}
+
+	header .navbar .nav-links .links li .arrow {
+		color: black;
+		font-size: 20px;
+	}
+
+	header .navbar .nav-links .links .sub-menu {
+		display: none;
+		position: relative;
+		top: 0;
+		left: 0;
+		box-shadow: none;
+		background: #F5F5F5;
+	}
+
+	header .navbar .nav-links .links .sub-menu li {
+		border-bottom: none;
+	}
+
+	header .navbar .nav-links .links li:hover .about,
+	header .navbar .nav-links .links li:hover .programs,
+	header .navbar .nav-links .links li:hover .exhibit {
+	display: none;
+}
+
+	header .navbar .nav-links .links li .arrow {
+	line-height: 40px;
+}
+
+	header .navbar .nav-links .links li:hover .about-arrow,
+	header .navbar .nav-links .links li:hover .programs-arrow,
+	header .navbar .nav-links .links li:hover .exhibit-arrow {
+	transform: rotate(0deg);
+}
+
+.navbar .fa-bars {
+	position: relative;
+	left: 0px;
+	top: 0px;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.navbar .nav-links .fa-times {
+	position: relative;
+	left: 210px;
+	font-size: 25px;
+	color: black;
+	cursor: pointer;
+}
+
+header .fa-search {
+	right: 30px;
+}
+
+
+
+.sticky .navbar .fa-bars {
+	position: relative;
+	left: 0px;
+	top: -5px;
+	color: black;
+	font-size: 25px;
+}
+
+	.sticky .navbar .nav-links .links {
+		display: block;
+		margin-top: 40px;
+	}
+
+	.sticky .navbar .nav-links .links li {
+		display: block;
+	}
+
+	.sticky .navbar .nav-links .links .sub-menu {
+		display: none;
+		position: relative;
+		top: 0;
+		left: 0;
+		box-shadow: none;
+	}
+
+	.sticky .fa-search {
+		color: black;
+	}
+
+header .container {
+	position: absolute;
+	top: 0;
+	left: 700px;
+	width: 700px;
+	padding: 20px 100px;
+	background: #fff;
+	align-items: center;
+	transition: 0.5s;
+	right: 0;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+	} 
+header .container .searchbox {
+	top: 10px;
+	height: 30px;
+	width: 70%;
+	position: relative;
+	left: -20px;
+	}
+header .container .searchbox input {
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border: 0px;
+	border-style: none;
+	border-bottom: 2px solid;
+	outline: 0;
+	}
+header .container .fa-search {
+	position: absolute;
+	color: black;
+	top: 0px;
+	right: -20px;
+	cursor: pointer;
+	}
+
+header .container .fa-arrow-left {
+	font-size: 25px;
+	position: relative;
+	color: black;
+	top: -50px;
+	left: -60px;
+	cursor: pointer;
+	}
+
+header .navbar .nav-links .links .about-arrow {
+	margin-left: -145px;
+}
+
+header .navbar .nav-links .links .programs-arrow {
+	margin-left: -175px;
+}
+
+header .navbar .nav-links .links .exhibit-arrow {
+	margin-left: -70px;
+}
+
+
+	header .navbar .nav-links.show1 .links .sub-menu.about {
+	display: block;
+}
+
+header .navbar .nav-links.show1 .links .fa-angle-down.about-arrow {
+	transform: rotate(180deg);
+}
+
+header .navbar .nav-links.show2 .links .sub-menu.programs {
+	display: block;
+}
+
+header .navbar .nav-links.show2 .links .fa-angle-down.programs-arrow {
+	transform: rotate(180deg);
+}
+
+header .navbar .nav-links.show3 .links .sub-menu.exhibit {
+	display: block;
+}
+
+header .navbar .nav-links.show3 .links .fa-angle-down.exhibit-arrow {
+	transform: rotate(180deg);
+}
+
+}
+
+@media (max-width:  400px) {
+	header .fa-search {
+	right: 20px;
+}
+
+	.sticky .fa-search {
+		right: 20px;
+	}
+
+	.navbar .fa-bars {
+	position: relative;
+	left: -15px;
+	top: 0px;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+}
+
+.sticky .navbar .fa-bars {
+	left: -15px;
+}
+
+header .navbar img {
+	margin-left: -20px;
+	margin-top: 5px;
+	}
+
+header .navbar h1 {
+	left: 95px;
+	}
+
+.sticky .navbar img {
+	margin-left: -20px;
+	margin-top: 5px;
+	}
+
+.sticky .navbar h1 {
+	left: 95px;
+	}
+
+header .container .searchbox {
+	top: 10px;
+	height: 30px;
+	width: 55%;
+	position: relative;
+	left: -50px;
+	}
+header .container .searchbox input {
+	height: 100%;
+	width: 100%;
+	font-size: 15px;
+	-webkit-appearance: none;
+	border: 0px;
+	border-style: none;
+	border-bottom: 2px solid;
+	outline: 0;
+	}
+header .container .fa-search {
+	position: absolute;
+	color: black;
+	top: 0px;
+	right: -20px;
+	cursor: pointer;
+	}
+
+header .container .fa-arrow-left {
+	font-size: 25px;
+	position: relative;
+	color: black;
+	top: -50px;
+	left: -40px;
+	cursor: pointer;
+	}
+
+}

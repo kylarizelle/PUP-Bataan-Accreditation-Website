@@ -1,0 +1,1352 @@
+/*ALL PROGRAM*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;	
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: gray;
+}
+
+/*INDEX.PHP*/
+.header {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(photos/pupbataan.jpg);
+	background-size: cover;
+}
+
+.text-box {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+
+.text-box h1 {
+	font-size: 60px;
+}
+.text-box p {
+	font-size: 60px;
+}
+.text-box hr {
+	padding: 5px;
+	background: yellow;
+	color: yellow;
+	outline: none;
+}
+
+.director img {
+	margin-left: 30px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: -260px;
+	margin-left: 280px;
+}
+
+.director .a-message p {
+	margin-left: 280px;
+	margin-top: 30px;
+	margin-right: 50px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 50px;
+}
+
+.director .b-message p {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 50px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 50px;
+}
+
+.director .signature h1{
+	margin-left: 1000px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 1025px;
+	margin-top: 0px;
+}
+
+.title {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(photos/div1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.survey {
+	color: white;
+	font-size: 50px;
+}
+
+.acco img {
+	margin-top: 50px;
+	width: 400px;
+	margin-left: 70px;
+}
+
+.acco .bsa {
+	margin-top: -250px;
+	margin-left: 500px;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.acco .bsa-def p {
+	margin-right: 70px;
+	margin-left: 500px;
+	margin-top: 30px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 50px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 500px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 750px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+/*ABOUT.PHP*/
+
+.header-about {
+	position: relative;
+	width: 100%;
+	height: 60vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(photos/PUP2.jpg);
+	background-size: cover;
+}
+
+.text-box-about {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box-about h1 {
+	font-size: 80px;
+}
+
+.text-box-about hr {
+	padding: 5px;
+	background: yellow;
+	color: yellow;
+	outline: none;
+}
+
+.accomplish {
+	color: white;
+	font-size: 50px;
+}
+
+.aboutpup p {
+	font-size: 20px;
+	text-align: justify;
+	margin-top: 20px;
+	margin-left: 50px;
+	margin-right: 50px;
+	text-indent: 50px;
+}
+
+/*vision.php*/
+
+.bisyon {
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+}
+
+.pillars iframe {
+	width: 70%;
+	height: 90vh;
+}
+
+.vision-eng {
+	font-size: 25px;
+
+}
+.vision-fil {
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.misyon {
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+}
+
+.table {
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+.table .tbl {
+	margin-left: 30px;
+	margin-right: 40px;
+}
+
+.table p {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 18px;
+}
+
+.table ul {
+	text-align: justify;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.table ul li {
+	margin-top: 10px;
+}
+
+.goals {
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+}
+
+/*HISTORY.PHP*/
+
+.slider {
+	width: 800px;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 2s;
+}
+
+.slide img {
+	width: 800px;
+	height: 500px;
+}
+
+.nav-manual{
+	position: absolute;
+	width: 800px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual-btn:hover {
+	background: yellow;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+.nav-auto {
+	position: absolute;
+	display: flex;
+	width: 800px;
+	justify-content: center;
+	margin-top: 460px;
+}
+
+.nav-auto div {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	transform: 1s;
+}
+
+.nav-auto div:not(:last-child) {
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+	background: yellow;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+	background: yellow;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+	background: yellow;
+}
+
+@media (max-width: 1300px) {
+
+/*INDEX.PHP*/
+.director .signature h1{
+	margin-left: 975px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 1000px;
+	margin-top: 0px;
+}
+
+}
+
+@media (max-width: 1280px) {
+
+	/*INDEX.PHP*/
+	
+.director img {
+	margin-left: 30px;
+	width: 200px;
+}
+
+.director .signature h1{
+	margin-left: 900px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 925px;
+	margin-top: 0px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 500px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 680px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+}
+
+@media (max-width: 1200px) {
+
+	/*INDEX.PHP*/
+
+.director .signature h1{
+	margin-left: 825px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 850px;
+	margin-top: 0px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 500px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 580px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+}
+
+@media (max-width: 1100px) {
+
+	/*INDEX.PHP*/
+	
+	.header .text-box h1 {
+		font-size: 40px;
+}
+
+	.header .text-box p {
+		font-size: 40px;
+}
+
+	.aaccup img {
+		width: 800px;
+	}
+
+.director .signature h1{
+	margin-left: 725px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 750px;
+	margin-top: 0px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 500px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 480px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+
+/*vision.php*/
+
+.header .text-box h1 {
+	font-size: 60px;
+}
+
+.pillars iframe {
+	width: 80%;
+	height: 80vh;
+}
+
+
+}
+
+@media (max-width:  1000px) {
+
+	/*INDEX.PHP*/
+
+	.director img {
+	margin-left: 400px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: 20px;
+	margin-left: 350px;
+}
+
+.director .a-message p {
+	margin-left: 80px;
+	margin-top: 30px;
+	margin-right: 50px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 50px;
+}
+
+.director .b-message p {
+	margin-left: 80px;
+	margin-top: 30px;
+	margin-right: 50px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 50px;
+}
+
+.director .signature h1{
+	font-size: 25px;
+	margin-left: 550px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 585px;
+	margin-top: 0px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 500px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 380px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+/*vision.php*/
+
+	.pillars iframe {
+	width: 80%;
+	height: 60vh;
+}
+
+}
+
+@media (max-width: 900px) {
+
+	/*INDEX.PHP*/
+	
+	.aaccup img {
+		width: 600px;
+	}
+
+	.director img {
+	margin-left: 350px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: 20px;
+	margin-left: 300px;
+}
+
+.director .signature h1{
+	font-size: 25px;
+	margin-left: 500px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 535px;
+	margin-top: 0px;
+}
+
+.acco img {
+	margin-top: 50px;
+	width: 350px;
+	margin-left: 30px;
+}
+
+.acco .bsa {
+	margin-top: 20px;
+	margin-left:30px;
+	font-size: 40px;
+	text-decoration: underline;
+}
+
+.acco .bsa-def p {
+	margin-left: 30px;
+	margin-top: 30px;
+	margin-right: 70px;
+	text-align: justify;
+	font-size: 18px;
+	text-indent: 50px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 750px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+/*ABOUT.PHP*/
+
+.accomplish {
+	margin-top: 5px;
+	color: white;
+	font-size: 40px;
+}
+
+/*VISION.PHP*/
+
+.pillars iframe {
+	width: 80%;
+	height: 60vh;
+}
+
+.table {
+	display: block;
+}
+
+.table .tbl {
+	margin-top: 30px;
+}
+
+/*HISTORY.PHP*/
+
+.slider {
+	width: 700px;
+	height: 500px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 500px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 2s;
+}
+
+.slide img {
+	width: 700px;
+	height: 500px;
+}
+
+.nav-manual{
+	position: absolute;
+	width: 700px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual-btn:hover {
+	background: yellow;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+.nav-auto {
+	position: absolute;
+	display: flex;
+	width: 700px;
+	justify-content: center;
+	margin-top: 460px;
+}
+
+.nav-auto div {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	transform: 1s;
+}
+
+.nav-auto div:not(:last-child) {
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+	background: yellow;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+	background: yellow;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+	background: yellow;
+}
+
+
+}
+
+@media (max-width: 800px) {
+
+	/*INDEX.PHP*/
+
+.director img {
+	margin-left: 300px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: 20px;
+	margin-left: 250px;
+}
+
+.director .signature h1{
+	font-size: 25px;
+	margin-left: 400px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 435px;
+	margin-top: 0px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 650px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+/*HISTORY.PHP*/
+
+.slider {
+	width: 600px;
+	height: 400px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 400px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 2s;
+}
+
+.slide img {
+	width: 600px;
+	height: 400px;
+}
+
+.nav-manual{
+	position: absolute;
+	width: 600px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual-btn:hover {
+	background: yellow;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+.nav-auto {
+	position: absolute;
+	display: flex;
+	width: 600px;
+	justify-content: center;
+	margin-top: 360px;
+}
+
+.nav-auto div {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	transform: 1s;
+}
+
+.nav-auto div:not(:last-child) {
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+	background: yellow;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+	background: yellow;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+	background: yellow;
+}
+
+
+}
+
+@media (max-width: 750px) {
+
+	/*INDEX.PHP*/
+
+.director img {
+	margin-left: 275px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: 20px;
+	margin-left: 225px;
+}
+
+.director .signature h1{
+	font-size: 25px;
+	margin-left: 375px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 400px;
+	margin-top: 0px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 650px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+/*ABOUT.PHP*/
+
+	.accomplish {
+	margin-top: 5px;
+	color: white;
+	font-size: 35px;
+}
+
+/*VISION.PHP*/
+
+	.pillars iframe {
+	width: 80%;
+	height: 60vh;
+}
+
+/*HISTORY.PHP*/
+
+.slider {
+	width: 500px;
+	height: 350px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 350px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 2s;
+}
+
+.slide img {
+	width: 500px;
+	height: 350px;
+}
+
+.nav-manual{
+	position: absolute;
+	width: 500px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual-btn:hover {
+	background: yellow;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+.nav-auto {
+	position: absolute;
+	display: flex;
+	width: 500px;
+	justify-content: center;
+	margin-top: 310px;
+}
+
+.nav-auto div {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	transform: 1s;
+}
+
+.nav-auto div:not(:last-child) {
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+	background: yellow;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+	background: yellow;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+	background: yellow;
+}
+
+}
+
+
+@media(max-width: 700px) {
+
+	/*INDEX.PHP*/
+
+.header .text-box h1 {
+		font-size: 40px;
+	}
+
+.header .text-box p {
+		font-size: 40px;
+	}
+
+.aaccup img {
+	position: unset;
+	width: 450px;
+	margin-top: 10px;
+	margin-left: 13px;
+}
+
+.director img {
+	margin-left: 250px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: 20px;
+	margin-left: 200px;
+}
+
+.director .signature h1{
+	font-size: 20px;
+	margin-left: 360px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 370px;
+	margin-top: 0px;
+}
+
+.survey {
+	color: white;
+	font-size: 40px;
+}
+
+.acco .bsa {
+	margin-top: 20px;
+	margin-left:30px;
+	font-size: 30px;
+	text-decoration: underline;
+}
+
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 550px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+/*ABOUT.PHP*/
+
+	
+.accomplish {
+	margin-top: 10px;
+	color: white;
+	font-size: 30px;
+}
+
+/*VISION.PHP*/
+
+	.pillars iframe {
+	width: 80%;
+	height: 40vh;
+}
+
+.table {
+	display: block;
+}
+
+.table .tbl {
+	margin-top: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+/*HISTORY.PHP*/
+
+.slider {
+	width: 400px;
+	height: 300px;
+	border-radius: 10px;
+	overflow: hidden;
+}
+
+.slides {
+	width: 500%;
+	height: 300px;
+	display: flex;
+}
+
+.slides input {
+	display: none;
+}
+
+.slide {
+	width: 20%;
+	transition: 2s;
+}
+
+.slide img {
+	width: 400px;
+	height: 300px;
+}
+
+.nav-manual{
+	position: absolute;
+	width: 400px;
+	margin-top: -40px;
+	display: flex;
+	justify-content: center;
+}
+
+.manual-btn {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.manual-btn:not(:last-child) {
+	margin-right: 40px;
+}
+
+.manual-btn:hover {
+	background: yellow;
+}
+
+#radio1:checked ~ .first {
+	margin-left: 0;
+}
+
+#radio2:checked ~ .first {
+	margin-left: -20%;
+}
+
+#radio3:checked ~ .first {
+	margin-left: -40%;
+}
+
+.nav-auto {
+	position: absolute;
+	display: flex;
+	width: 400px;
+	justify-content: center;
+	margin-top: 260px;
+}
+
+.nav-auto div {
+	border: 2px solid yellow;
+	padding: 5px;
+	border-radius: 10px;
+	transform: 1s;
+}
+
+.nav-auto div:not(:last-child) {
+	margin-right: 40px;
+}
+
+#radio1:checked ~ .nav-auto .auto-btn1 {
+	background: yellow;
+}
+
+#radio2:checked ~ .nav-auto .auto-btn2 {
+	background: yellow;
+}
+
+#radio3:checked ~ .nav-auto .auto-btn3 {
+	background: yellow;
+}
+
+}
+
+@media (max-width:  600px) {
+
+/*INDEX.PHP*/
+
+	.director img {
+	margin-left: 200px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: 20px;
+	margin-left: 150px;
+}
+
+.director .signature h1{
+	font-size: 20px;
+	margin-left: 300px;
+	margin-top: 50px;
+}
+
+.director .signature p {
+	margin-left: 310px;
+	margin-top: 0px;
+}
+
+.survey {
+	color: white;
+	font-size: 35px;
+	margin-top: 5px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 500px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+.misyon, .bisyon {
+	color: white;
+	font-size: 35px;
+	margin-top: 5px;
+}
+
+}
+
+@media (max-width:  550px) {
+
+		/*INDEX.PHP*/
+
+	.director img {
+	margin-left: 160px;
+	width: 200px;
+}
+
+.director h1 {
+	margin-top: 20px;
+	margin-left: 110px;
+}
+
+.director .signature h1{
+	font-size: 20px;
+	margin-left: 250px;
+	margin-top: 50px;
+}		
+
+.director .signature p {
+	margin-left: 260px;
+	margin-top: 0px;
+}
+
+.acco .btn {
+	margin-top: 20px;
+	margin-left: 30px;
+	display: block;
+	border: 1px solid black;
+	font-size: 20px;
+	padding: 4px 15px;
+	width: 440px;
+	height: 35px;
+	background-color: white;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.acco .btn:hover {
+	background-color: lightgray;
+}
+
+}
