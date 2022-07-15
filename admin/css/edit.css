@@ -1,0 +1,94 @@
+.edit_form {
+	background-color: white;
+	border: 3px solid maroon;
+	padding: 20px;
+	position: fixed;
+	margin-top: 100px;
+	width: 1060px;
+	margin-left: 280px;
+}
+
+.edit_form h1 {
+	font-family: 'Roboto sans', sans-serif;
+}
+
+.edit .edit_modal {
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.edit .edit_modal img {
+	width: 30px;
+	position: absolute;
+	top: 65px;
+}
+
+.edit .edit_modal h1 {
+	margin-top: -10px;
+	margin-left: 35px;
+}
+
+.edit .edit_modal hr {
+	border: none;
+	background: maroon;
+	padding: 2px;
+}
+
+.edit .edit_modal .form {
+	margin-top: 20px;
+}
+
+.edit .edit_modal label {
+	font-size: 18px;
+	font-family: 'Roboto Sans', sans-serif;
+}
+
+.edit .edit_modal input {
+	display: flex;
+	margin-bottom: 20px;
+	padding: 5px;
+	border: 2px solid maroon;
+	outline: none;
+	width: 300px;
+	margin-left: 120px;
+	margin-top: -25px;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+}
+
+.edit .edit_modal .form .edit-save {
+	background: green;
+	border: none;
+	width: 100px;
+	height: 40px;
+	margin-left: 900px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.edit .edit_modal .form .edit-save:hover {
+	background: darkgreen;
+}
+
+.edit .edit_modal .form .edit-back {
+	margin-top: -40px;
+	margin-left: 780px;
+	background: red;
+	border: none;
+	width: 100px;
+	height: 40px;
+	color: white;
+	font-size: 15px;
+	cursor: pointer;
+}
+
+.edit .edit_modal .form .edit-back a {
+	color: white;
+	text-decoration: none;
+}
+
+.edit .edit_modal .form .edit-back:hover {
+	background: darkred;
+}

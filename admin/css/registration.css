@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.background {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../photos/pupbataan.jpg);
+	background-size: cover;
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: gray;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+header {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 110px;
+}
+
+header img {
+	width: 90px;
+	margin-left: 20px;
+	margin-top: 10px;
+}
+header h1 {
+	font-family: 'Source Serif Pro', serif;
+	margin-left: 120px;
+	margin-top: -80px;
+	color: maroon;
+}
+header p {
+	font-family: 'Source Serif Pro', serif;
+	font-weight: bold;
+	color: black;
+	margin-left: 120px;
+}
+
