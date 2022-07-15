@@ -1,0 +1,211 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;	
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: gray;
+}
+
+.header-about {
+	position: relative;
+	width: 100%;
+	height: 60vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(photos/PUP2.jpg);
+	background-size: cover;
+}
+
+.text-box {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h1 {
+	font-size: 70px;
+}
+
+.text-box hr {
+	padding: 5px;
+	background: yellow;
+	color: yellow;
+	outline: none;
+}
+
+.vision {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(photos/div1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.bisyon {
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+}
+
+.pillars iframe {
+	width: 70%;
+	height: 90vh;
+}
+
+.vision-eng {
+	font-size: 25px;
+
+}
+.vision-fil {
+	margin-top: 10px;
+	font-size: 20px;
+	font-style: italic;
+}
+
+.mission {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(photos/div1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.misyon {
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+}
+
+.table {
+	display: flex;
+	margin-left: 50px;
+	margin-right: 50px;
+	margin-top: 30px;
+}
+
+.table .tbl {
+	margin-left: 30px;
+	margin-right: 40px;
+}
+
+.table p {
+	text-align: justify;
+	text-indent: 50px;
+	font-size: 18px;
+}
+
+.table ul {
+	text-align: justify;
+	margin-left: 50px;
+	font-size: 18px;
+}
+
+.table ul li {
+	margin-top: 10px;
+}
+
+.goal {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(photos/div1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.goals {
+	color: white;
+	font-size: 50px;
+	margin-left: 100px;
+}
+
+
+@media (max-width: 1100px) {
+
+	.header .text-box h1 {
+		font-size: 60px;
+}
+
+	.pillars iframe {
+	width: 80%;
+	height: 80vh;
+}
+
+}
+
+@media (max-width:  1000px) {
+
+	.pillars iframe {
+	width: 80%;
+	height: 60vh;
+}
+}
+
+
+
+
+@media (max-width: 900px) {
+
+.pillars iframe {
+	width: 80%;
+	height: 60vh;
+}
+
+.table {
+	display: block;
+}
+
+.table .tbl {
+	margin-top: 30px;
+}
+
+}
+
+@media (max-width: 750px) {
+	.pillars iframe {
+	width: 80%;
+	height: 60vh;
+}
+}
+
+
+@media(max-width: 700px) {
+
+	
+	.header .text-box h1 {
+		font-size: 40px;
+	}
+	
+	.pillars iframe {
+	width: 80%;
+	height: 40vh;
+}
+
+.table {
+	display: block;
+}
+
+.table .tbl {
+	margin-top: 30px;
+	margin-left: 0px;
+	margin-right: 0px;
+}
+
+
+}

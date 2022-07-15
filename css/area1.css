@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;	
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: gray;
+}
+
+.header img {
+	position: relative;
+	width: 100%;
+	height: 70vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2));
+	background-size: cover;
+}
+
+.text-box {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 40%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.text-box p {
+	font-size: 50px;
+}
+
+.text-box h1 {
+	font-size: 80px;
+}
+
+.text-box hr {
+	padding: 5px;
+	background: yellow;
+	color: yellow;
+	outline: none;
+}
+
+.bsa {
+	display: flex;
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+.bsa .bsa-content p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+	text-decoration: underline;
+	padding: 5px;
+	color: black;
+}
+
+.bsa .bsa-content h1 {
+	margin-left: 60px;
+	margin-right: 200px;
+}
+
+.bsa .bsa-des {
+	margin-right: 50px;
+}
+
+.bsa .bsa-des  p{
+	font-family: 'Open Sans', sans-serif;
+	padding: 10px;
+	text-indent: 50px;
+	text-align: justify;
+	font-size: 20px;
+}
+
+.bsa .bsa-des  h1 {
+	font-size: 40px;
+}
+
+.titles {
+	position: relative;
+	width: 100%;
+	height: 23vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../photos/div1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.admins {
+	margin-left: 30px;
+	color: white;
+	font-size: 50px;
+}
+.parameter ul {
+	margin-top: 30px;
+	margin-left: 30px;
+	font-size: 18px;
+}
+
+.para {
+	margin-left: 30px;
+	font-size: 18px;
+	color: white;
+}
+
+.title {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../photos/div1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+}
+
+
+.admin {
+	color: white;
+	font-size: 50px;
+}
+
+.program {
+	background: yellow;
+	height: 14vh;
+	width: 100%;
+}
+
+.cardx {
+	margin: 0 auto;
+	max-width: 1350px;
+	display: grid;
+	grid-template-columns: repeat(4,1fr);
+	gap: 5px;
+}
+
+.cards {
+	margin: auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(500px, 1fr));
+	gap: 20px;
+}
+.card {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.back-btn {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	background: yellow;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.add {
+	width: 100%;
+	display: block;
+	padding: 5px;
+	background: white;
+	border: 1px solid black;
+	border-radius: 5px;
+	text-decoration: none;
+}
+
+.cardz {
+	margin: auto;
+	max-width: 900px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(600px, 1fr));
+	gap: 20px;
+}
+
+.card-a {
+	margin-top: 10px;
+	margin-left: 20px;
+	margin-right: 20px;
+	text-decoration: none;
+}
+.area {
+	background: linear-gradient(rgba(255,0,0,.7), rgba(255,0,0,.7)), url(../photos/pupbataan.jpg);
+	background-size: cover;
+	width: 100%;
+	padding: 10px;
+}
+@media(max-width: 900px) {
+.bsa {
+	display: block;
+	margin-top: 50px;
+	margin-left: 20px;
+}
+
+.bsa .bsa-des {
+	margin-right: 20px;
+}
+
+.cardx {
+	margin: 0 auto;
+	max-width: 1350px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 5px;
+}
+
+.cards {
+	margin: auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 20px;
+}
+.cardz {
+	margin: auto;
+	max-width: 900px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
+	gap: 20px;
+}
+
+
+}
+
+@media(max-width: 700px) {
+	
+.admins {
+	color: white;
+	font-size: 40px;
+}
+
+.admin {
+	color: white;
+	margin-top: 10px;
+	font-size: 30px;
+}
+.text-box p {
+	font-size: 40px;
+}
+
+.text-box h1 {
+	font-size: 60px;
+}
+
+.text-box hr {
+	padding: 5px;
+	background: yellow;
+	color: yellow;
+	outline: none;
+}
+
+}
+
+@media(max-width: 400px) {
+	.cardx {
+	margin: 0 auto;
+	max-width: 1350px;
+	display: grid;
+	grid-template-columns: repeat(2,1fr);
+	gap: 5px;
+}
+
+.cards {
+	margin: auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	gap: 20px;
+}
+.cardz {
+	margin: auto;
+	max-width: 900px;
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+	gap: 20px;
+}
+}

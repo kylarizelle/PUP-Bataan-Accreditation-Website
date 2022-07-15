@@ -1,0 +1,293 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Roboto Condensed', sans-serif;	
+}
+
+::-webkit-scrollbar {
+	width: 10px;
+}
+
+::-webkit-scrollbar-track {
+	border-radius: 5px;
+	box-shadow: inset 0 0 10px rgba(0, 0, 0, 0);
+}
+
+::-webkit-scrollbar-thumb {
+	border-radius: 5px;
+	background-color: gray;
+}
+
+
+.title {
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(../photos/div1.jpg);
+	background-size: cover;
+	margin-top: 40px;
+}
+
+.header {
+	position: relative;
+	width: 100%;
+	height: 60vh;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.2)), url(../photos/PUP2.jpg);
+	background-size: cover;
+}
+
+.text-box {
+	width: 90%;
+	color: #fff;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-align: center;
+}
+.text-box h1 {
+	font-size: 80px;
+}
+
+.text-box hr {
+	padding: 5px;
+	background: yellow;
+	color: yellow;
+	outline: none;
+}
+
+.exhibit {
+	display: flex;
+}
+
+.exhibit .exhibit-content {
+	width: 350px;
+	margin-left: 50px;
+}
+
+.exhibit .exhibit-content h1 {
+	margin-top: 20px;
+	text-align: center;
+}
+
+.exhibit .exhibit-content p {
+	padding: 10px;
+	font-family: 'Open Sans', sans-serif;
+	color: black;
+	text-decoration: underline;
+}
+
+.exhibit .exhibit-img {
+	margin-top: 20px;
+	margin-left: 100px;
+}
+
+.exhibit .exhibit-img img {
+	width: 750px;
+}
+
+.admins {
+	color: white;
+	font-size: 50px;
+}
+
+.cards {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	gap: 5px;
+}
+
+.cardz {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 5px;
+}
+
+.card {
+	margin-top: 50px;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+.card_img {
+	width: 100%;
+	display: block;
+}
+.card_content {
+	text-align: center;
+	font-size: 20px;
+	text-decoration: underline;
+}
+.card_content p {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: bold;
+}
+.card-a {
+	margin: 0 auto;
+	max-width: 1200px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 5px;
+}
+
+.card_con {
+	padding: 10px;
+	text-align: right;
+	font-style: italic;
+	font-size: 17px;
+	color: #666;
+}
+
+@media (max-width:  1280px) {
+	.exhibit .exhibit-content h1 {
+	margin-left: 60px;
+	margin-right: 350px;
+}
+}
+
+@media (max-width:  1200px) {
+	.exhibit .exhibit-content h1 {
+	margin-left: 60px;
+	margin-right: 300px;
+}
+}
+
+@media (max-width: 1100px) {
+
+
+.exhibit .exhibit-content h1 {
+	margin-left: 60px;
+	margin-right: 200px;
+}
+}
+
+@media (max-width:  1300px) {
+	.exhibit .exhibit-img {
+		margin-left: 50px;
+	}
+	.exhibit .exhibit-img img {
+		width: 700px;
+	}
+}
+
+@media (max-width:  1250px) {
+	.exhibit .exhibit-img {
+		margin-left: 0px;
+	}
+	.exhibit .exhibit-img img {
+		width: 650px;
+	}
+}
+
+
+@media (max-width:  1100px) {
+	.exhibit .exhibit-img {
+		margin-left: 0px;
+	}
+	.exhibit .exhibit-img img {
+		width: 600px;
+	}
+}
+
+@media (max-width:  1000px) {
+	.exhibit .exhibit-img {
+		margin-left: 0px;
+	}
+	.exhibit .exhibit-img img {
+		width: 500px;
+	}
+}
+
+@media (max-width:  900px) {
+
+	.admins {
+		margin-top: 5px;
+	color: white;
+	font-size: 40px;
+}
+	.exhibit {
+		display: block;
+	}
+
+	.exhibit .exhibit-img {
+		margin-left: 50px;
+	}
+
+	.exhibit .exhibit-img img {
+		width: 600px;
+	}
+
+	.text-box h1 {
+	font-size: 60px;
+}
+.cards {
+	margin: 0 auto;
+	max-width: 1350px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 5px;
+}
+
+.cardz {
+	margin: 0 auto;
+	max-width: 1350px;
+	display: grid;
+	grid-template-columns: repeat(1, 1fr);
+	gap: 5px;
+}
+}
+
+@media (max-width:  800px) {
+	.exhibit .exhibit-img img {
+		width: 500px;
+	}
+
+.exhibit .exhibit-des img {
+	width: 450px;
+}
+}
+
+@media (max-width:  700px) {
+	.exhibit .exhibit-img img {
+		width: 400px;
+	}
+	.admin {
+	color: white;
+	margin-top: 15px;
+	font-size: 30px;
+}
+
+.admins {
+	margin-top: 10px;
+	color: white;
+	font-size: 35px;
+}
+}
+
+@media (max-width: 600px){
+	.admins {
+	margin-top: -10px;
+	color: white;
+	font-size: 35px;
+}
+}
+
+@media(max-width:  400px) {
+	.exhibit .exhibit-content {
+	margin-left: 20px;
+	}
+
+	.exhibit .exhibit-img img {
+		width: 350px;
+		margin-left: 0px;
+	}
+
+	.exhibit .exhibit-img {
+		margin-left: 20px;
+	}
+}
